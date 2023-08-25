@@ -1,0 +1,13 @@
+{
+    "type":"postgres",
+    "host":"localhost",
+    "username":"root",
+    "password":"root123456",
+    "database":"backend_db",
+    "port":5432,
+    "migrations": ["./src/database/migrations/*.ts"],
+    "entities": ["./src/modules/**/entities/*.ts"],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+}
